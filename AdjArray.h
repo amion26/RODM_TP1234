@@ -1,6 +1,5 @@
 #pragma once
 
-#include "Edge.h"
 #include "EdgeList.h"
 
 class AdjArray

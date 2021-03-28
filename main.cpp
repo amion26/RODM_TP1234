@@ -13,7 +13,7 @@ int main(int argc, char** argv)
 	// PrintDataPowerIt(); // Attention encore lien en dur dans EdgeList.cpp
 	// mainKCorePref("D:\\Graphes_RDM\\graphe1.txt");//Lien à modifier
 	mainLabelProp("D:\\Graphes_RDM\\graphe1.txt");// Lien a modifier
-
+	mainBornesDia("D:\\Graphes_RDM\\graphe1.txt");//Lien a modifier
 
 
 	return 0;

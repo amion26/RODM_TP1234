@@ -26,3 +26,4 @@ public:
 void mainTriangle(const char* input);
 void mainKCorePref(const char* input);
 void mainLabelProp(const char* input);
+void mainBornesDia(const char* input);

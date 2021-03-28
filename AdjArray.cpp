@@ -475,8 +475,8 @@ void mainLabelProp(const char* input){
 
 	t1 = time(NULL);
 
-	cout << "Reading AdjArray from file\n" << argv[1] << endl;
-	AdjArray g(argv[1]);
+	cout << "Reading AdjArray from file\n" << input << endl;
+	AdjArray g(input);
 
 	cout << "Number of nodes:\n" << g.n << endl;
 	cout << "Number of edges:\n" << g.e << endl;

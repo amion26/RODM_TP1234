@@ -499,7 +499,7 @@ void mainBornesDia(const char* input) {
 	int dist = 2 * g1.BFS2(s);
 	cout << "Borne superieure diametre : " << dist << endl;
 	dist = g1.BorneDist(1);
-	cout << "Borne inférieure diametre : " << dist << endl;
+	cout << "Borne inferieure diametre : " << dist << endl;
 	t2 = time(NULL);
 	cout << "- Overall time =" << endl;
 	cout << (t2 - t1) / 3600 << "h " << ((t2 - t1) % 3600) / 60 << "mn " << ((t2 - t1) % 60) << "s " << endl;

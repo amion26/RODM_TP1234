@@ -488,3 +488,20 @@ void mainLabelProp(const char* input){
 	
 	g.label_propagation();
 }
+
+void mainBornesDia(const char* input) {
+
+	time_t t1, t2;
+	AdjArray g1(input);
+	t1 = time(NULL);
+	cout << "Calcul des bornes du diametre" << endl;
+	unsigned long s = 1;
+	int dist = 2 * g1.BFS2(s);
+	cout << "Borne superieure diametre : " << dist << endl;
+	dist = g1.BorneDist(1);
+	cout << "Borne inférieure diametre : " << dist << endl;
+	t2 = time(NULL);
+	cout << "- Overall time =" << endl;
+	cout << (t2 - t1) / 3600 << "h " << ((t2 - t1) % 3600) / 60 << "mn " << ((t2 - t1) % 60) << "s " << endl;
+	return;
+}
